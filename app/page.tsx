@@ -235,7 +235,7 @@ export default function HomePage() {
                       <img 
                         src="/omaki/clube_paulistano.jpg" 
                         alt="Club Athletico Paulistano" 
-                        className="w-full h-40 object-cover group-hover:scale-110 transition-transform duration-500"
+                        className="w-full h-40 object-cover object-top group-hover:scale-110 transition-transform duration-500"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                       <div className="absolute bottom-3 left-3 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
@@ -247,7 +247,7 @@ export default function HomePage() {
                       <img 
                         src="/omaki/trophy.webp" 
                         alt="Troféu Melhor Treinador" 
-                        className="w-full h-40 object-cover group-hover:scale-110 transition-transform duration-500"
+                        className="w-full h-40 object-contain object-center group-hover:scale-110 transition-transform duration-500"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                       <div className="absolute bottom-3 left-3 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
@@ -262,7 +262,7 @@ export default function HomePage() {
                   <div className="prose prose-lg max-w-none">
                     <p className="text-xl leading-relaxed text-gray-700 mb-6">
                       Com 40 anos de carreira, Carlos Omaki é <span className="font-bold text-green-700">Melhor Treinador Brasileiro de Base (2014 e 2015)</span> 
-                      e proprietário da <span className="font-bold text-gray-800">Academia COT</span>.
+                      e proprietário da <span className="font-bold text-gray-800">COT</span>.
                     </p>
                     
                     <p className="text-lg leading-relaxed text-gray-600 mb-6">
@@ -318,8 +318,7 @@ export default function HomePage() {
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold text-gray-900 mb-4">Metodologia Omaki</h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Uma abordagem integral que vai além da técnica: formamos atletas de alto nível e cidadãos, 
-                incutindo disciplina, ética e paixão pelo esporte.
+                Formamos atletas de alto nível e cidadãos.
               </p>
             </div>
             
@@ -332,8 +331,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-bold mb-4 text-center">Desenvolvimento Integral</h3>
                 <p className="text-gray-600 text-center">
-                  Coordenamos uma das equipes multidisciplinares mais conceituadas do país, cuidando dos 
-                  aspectos técnicos, físicos e mentais desde as fases iniciais.
+                  Equipe multidisciplinar cuidando dos aspectos técnicos, físicos e mentais.
                 </p>
               </div>
               
@@ -345,8 +343,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-bold mb-4 text-center">Experiência Competitiva</h3>
                 <p className="text-gray-600 text-center">
-                  Organizamos caravanas para torneios de alto nível, como a tradicional &ldquo;Rota do Sol&rdquo; - 
-                  cerca de 30 tenistas em 20 dias de competições ininterruptas.
+                  Caravanas para torneios de alto nível, incluindo a tradicional &ldquo;Rota do Sol&rdquo;.
                 </p>
               </div>
               
@@ -358,8 +355,7 @@ export default function HomePage() {
                 </div>
                 <h3 className="text-xl font-bold mb-4 text-center">Inclusão Social</h3>
                 <p className="text-gray-600 text-center">
-                  Através do Instituto Primeiro Serviço, oferecemos treinamento de primeiro mundo, 
-                  formação profissional e oportunidades para jovens de comunidades carentes.
+                  Instituto Primeiro Serviço oferece tênis de primeiro mundo para jovens carentes.
                 </p>
               </div>
             </div>
@@ -503,7 +499,7 @@ export default function HomePage() {
                           <img 
                             src="/omaki/omaki_stefani.jpeg" 
                             alt="Carlos Omaki com Luisa Stefani" 
-                            className="relative w-32 h-32 rounded-full object-cover border-4 border-white shadow-lg"
+                            className="relative w-32 h-32 rounded-full object-cover object-center border-4 border-white shadow-lg"
                           />
                         </div>
                         <div className="flex-1">
@@ -606,18 +602,7 @@ export default function HomePage() {
               <p className="text-xl text-gray-600">O que dizem pais, atletas e parceiros</p>
             </div>
             
-            <div className="grid lg:grid-cols-3 gap-8">
-              <div className="bg-white p-8 rounded-lg shadow-sm">
-                <blockquote className="text-gray-700 mb-6">
-                  &ldquo;Agradecemos ao Carlos, Marina e equipe técnica por toda atenção com a Luna e o Enzo, 
-                  e à Diretoria de Esportes, pelo apoio ao tênis competitivo.&rdquo;
-                </blockquote>
-                <footer className="text-sm">
-                  <strong className="text-gray-900">Fábio Guarda</strong>
-                  <p className="text-gray-600">Pai de dois jovens tenistas do Club Athletico Paulistano</p>
-                </footer>
-              </div>
-              
+            <div className="grid lg:grid-cols-2 gap-8 max-w-4xl mx-auto">
               <div className="bg-white p-8 rounded-lg shadow-sm">
                 <blockquote className="text-gray-700 mb-6">
                   &ldquo;Isso comprova que o trabalho integrado com a Escolinha de Tênis e o pré-competitivo 
