@@ -1,6 +1,6 @@
 import { redirect } from 'next/navigation';
 
 export default function RootPage() {
-  // Redirect to default locale (Portuguese)
+  // Always redirect to Portuguese (default)
   redirect('/pt');
 }
