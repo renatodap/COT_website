@@ -1,0 +1,357 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "sobre": "About",
+    "philosophy": "Philosophy",
+    "filosofia": "Philosophy",
+    "programs": "Programs",
+    "programas": "Programs",
+    "projects": "Projects",
+    "projetos": "Projects",
+    "results": "Results",
+    "resultados": "Results",
+    "press": "Press",
+    "imprensa": "Press",
+    "articles": "Articles",
+    "artigos": "Articles",
+    "contact": "Contact",
+    "contato": "Contact",
+    "politicas": "Policies"
+  },
+  "hero": {
+    "badge": "40+ years training champions",
+    "title": "Carlos Omaki",
+    "subtitle": "Tennis, method and legacy",
+    "description": "Competitive training for juniors and adults. Social projects and Brazilian tennis history.",
+    "cta": {
+      "primary": "Schedule assessment",
+      "secondary": "Learn philosophy"
+    }
+  },
+  "stats": {
+    "athletes": "500+ active athletes",
+    "award": "2× Best Youth Coach",
+    "projects": "Social projects & Memorial"
+  },
+  "philosophy": {
+    "title": "Philosophy in 3 Pillars",
+    "subtitle": "Methodology developed in 40 years of experience",
+    "meta": {
+      "title": "Philosophy - Carlos Omaki Tennis",
+      "description": "Discover the training philosophy that formed champions like Bia Haddad and Luisa Stefani"
+    },
+    "technique": {
+      "title": "Technical Excellence",
+      "description": "Solid fundamentals built from the ground up, with biomechanical correction and progressive development.",
+      "point1": "Detailed biomechanical analysis",
+      "point2": "Progressive movement correction",
+      "point3": "Development of personal style"
+    },
+    "competition": {
+      "title": "Smart Competition",
+      "description": "Mental and tactical strategy to win not just with strength, but with game intelligence.",
+      "point1": "Mental and emotional preparation",
+      "point2": "Tactical opponent analysis",
+      "point3": "Competitive pressure management"
+    },
+    "formation": {
+      "title": "Human Development",
+      "description": "Sports values applied to life: discipline, respect, resilience and teamwork.",
+      "point1": "Character development",
+      "point2": "Leadership and teamwork",
+      "point3": "Values for life"
+    },
+    "method": {
+      "title": "The Omaki Method",
+      "description": "A holistic approach combining refined technique, mental preparation and personal development.",
+      "imageAlt": "Team of athletes in training",
+      "step1": {
+        "title": "Individual Assessment",
+        "description": "Complete analysis of the athlete's physical, technical and psychological profile."
+      },
+      "step2": {
+        "title": "Personalized Planning",
+        "description": "Development program adapted to each student's goals and potential."
+      },
+      "step3": {
+        "title": "Supervised Execution",
+        "description": "Constant monitoring with real-time corrections and adjustments."
+      },
+      "step4": {
+        "title": "Measurable Evolution",
+        "description": "Clear progress metrics and tangible on-court results."
+      }
+    },
+    "values": {
+      "title": "Our Values",
+      "excellence": {
+        "title": "Excellence",
+        "description": "Constant pursuit of each athlete's best version."
+      },
+      "respect": {
+        "title": "Respect",
+        "description": "Valuing opponents, rules and the sport."
+      },
+      "evolution": {
+        "title": "Evolution",
+        "description": "Continuous growth on and off the courts."
+      }
+    }
+  },
+  "about": {
+    "badge": "Since 1980",
+    "title": "Carlos Omaki",
+    "intro": "Leading coach in Brazilian tennis, with over 40 years dedicated to training champion athletes and developing the sport in the country.",
+    "description": "My tennis journey began as an athlete and evolved into a mission: to form not just court champions, but successful people in life.",
+    "meta": {
+      "title": "About Carlos Omaki - 40 Years of Tennis",
+      "description": "Learn about Carlos Omaki's journey, a reference in Brazilian tennis"
+    },
+    "journey": {
+      "title": "Journey",
+      "start": {
+        "title": "Beginning of the Journey",
+        "description": "Started as an athlete and transitioned to coach, developing own methodology."
+      },
+      "growth": {
+        "title": "Growth and Recognition",
+        "description": "Training first national and international champions."
+      },
+      "legacy": {
+        "title": "Consolidated Legacy",
+        "description": "National reference with athletes in the world professional circuit."
+      }
+    },
+    "achievements": {
+      "title": "Achievements and Recognition",
+      "coaching": {
+        "title": "As a Coach",
+        "item1": "2× Best Youth Coach in Brazil",
+        "item2": "Trainer of Top 20 WTA athletes",
+        "item3": "100+ national and international titles"
+      },
+      "social": {
+        "title": "Social Impact",
+        "item1": "Founder of First Service Institute",
+        "item2": "Founding Director of Brazilian Tennis Memorial",
+        "item3": "1000+ youth benefited in social projects"
+      }
+    }
+  },
+  "programs": {
+    "title": "Development Programs",
+    "subtitle": "Methodology adapted for each phase and objective",
+    "includes": "What's included",
+    "cta": {
+      "title": "Ready to evolve your game?",
+      "subtitle": "Contact us for a personalized assessment",
+      "button": "Schedule Assessment",
+      "philosophy": "Learn Philosophy"
+    },
+    "meta": {
+      "title": "Tennis Programs - Carlos Omaki",
+      "description": "Training programs for all ages and levels"
+    },
+    "juniors": {
+      "title": "Competitive Juniors",
+      "audience": "6 to 18 years",
+      "description": "Complete training for young athletes focused on state, national and international tournaments.",
+      "feature1": "Technical and tactical training 5x per week",
+      "feature2": "Specific physical preparation",
+      "feature3": "Tournament support",
+      "feature4": "Sports psychology support"
+    },
+    "adults": {
+      "title": "Competitive Adults",
+      "audience": "18+ years",
+      "description": "Intensive program for adult players seeking performance in tournaments and rankings.",
+      "feature1": "Personalized training by level",
+      "feature2": "Advanced strategy and tactics",
+      "feature3": "Specific tournament preparation",
+      "feature4": "Video analysis and technical correction"
+    },
+    "clinics": {
+      "title": "Club Clinics",
+      "audience": "Clubs and Schools",
+      "description": "Specialized workshops and technical clinics for clubs, schools and groups.",
+      "feature1": "Custom programs on demand",
+      "feature2": "Teacher training",
+      "feature3": "Athlete evaluation"
+    },
+    "online": {
+      "title": "Online Coaching",
+      "audience": "Global",
+      "description": "Technical analysis and tactical planning through videos and remote consultations.",
+      "feature1": "Detailed video analysis",
+      "feature2": "Personalized training plan",
+      "feature3": "Monthly follow-up"
+    }
+  },
+  "projects": {
+    "title": "Projects & Legacy",
+    "subtitle": "Transforming lives through tennis",
+    "meta": {
+      "title": "Social Projects - Carlos Omaki Tennis",
+      "description": "First Service Institute and Brazilian Tennis Memorial"
+    },
+    "institute": {
+      "title": "First Service Institute",
+      "description": "Democratizing access to quality tennis for youth from underprivileged communities, offering not just sports training, but also educational support and personal development.",
+      "imageAlt": "Young athletes from First Service Institute",
+      "impact": {
+        "students": "Graduated students",
+        "annual": "Students per year",
+        "years": "Years of project",
+        "retention": "Retention rate"
+      },
+      "programs": {
+        "title": "Programs Offered",
+        "item1": "Free sports initiation for youth aged 7 to 17",
+        "item2": "School support and pedagogical monitoring",
+        "item3": "Values and citizenship formation through sports"
+      },
+      "cta": "How to support the project"
+    },
+    "memorial": {
+      "title": "Brazilian Tennis Memorial",
+      "role": "Founding Director",
+      "description": "Preserving history and celebrating national tennis achievements, the Memorial is a space for memory, research and inspiration for new generations.",
+      "imageAlt": "Brazilian Tennis Memorial",
+      "imageCredit": "Photo: Memorial Archive",
+      "mission": {
+        "title": "Our Mission",
+        "item1": "Preserve Brazilian tennis memory",
+        "item2": "Document achievements and athlete journeys",
+        "item3": "Inspire new generations through history"
+      },
+      "cta": "Visit Memorial"
+    },
+    "impact": {
+      "title": "Real Impact",
+      "subtitle": "Numbers reflecting decades of dedication to tennis development and social transformation",
+      "years": "Years of dedication",
+      "lives": "Lives transformed",
+      "legacy": "Infinite legacy"
+    }
+  },
+  "results": {
+    "title": "Results that Speak",
+    "subtitle": "Athletes trained by the Omaki method conquering the world",
+    "featured": {
+      "title": "Professional Highlights"
+    },
+    "achievements": "Main Achievements",
+    "categories": {
+      "title": "Results by Category",
+      "professional": "Professionals",
+      "junior": "Juniors",
+      "college": "College"
+    },
+    "stats": {
+      "title": "Impressive Numbers",
+      "athletes": "Athletes trained",
+      "professionals": "Active professionals",
+      "scholarships": "University scholarships",
+      "titles": "Titles won"
+    },
+    "testimonials": {
+      "title": "Testimonials",
+      "quote1": "Carlos not only taught me how to play tennis, he taught me to be a competitor, to never give up and to always seek excellence. I owe much of my career to him."
+    },
+    "viewMore": "View all results",
+    "meta": {
+      "title": "Results and Athletes - Carlos Omaki Tennis",
+      "description": "Meet the trained athletes and achieved results"
+    }
+  },
+  "contact": {
+    "title": "Let's Talk",
+    "subtitle": "Schedule an assessment or ask your questions",
+    "meta": {
+      "title": "Contact - Carlos Omaki Tennis",
+      "description": "Get in touch to schedule an assessment or learn about our programs"
+    },
+    "form": {
+      "title": "Send your message",
+      "name": "Full name",
+      "email": "Email",
+      "phone": "WhatsApp",
+      "profile": "Profile",
+      "profiles": {
+        "parent": "Parent of athlete",
+        "athlete": "Athlete",
+        "club": "Club/School"
+      },
+      "message": "Message",
+      "consent": "I authorize the use of image for publicity purposes",
+      "submit": "Send message",
+      "submitting": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "Error sending. Please try again."
+    },
+    "info": {
+      "title": "Contact Information"
+    },
+    "location": {
+      "title": "Location",
+      "address": "São Paulo, SP"
+    },
+    "hours": {
+      "title": "Hours",
+      "weekdays": "Monday to Friday: 6am to 10pm",
+      "saturday": "Saturday: 7am to 6pm",
+      "sunday": "Sunday: 8am to 2pm"
+    },
+    "whatsapp": {
+      "title": "Quick Response",
+      "description": "Prefer to chat on WhatsApp? Click below to start a conversation.",
+      "button": "Chat on WhatsApp",
+      "message": "Hello! I would like to know more about the tennis programs."
+    },
+    "calendar": {
+      "title": "Schedule your Assessment",
+      "subtitle": "Choose the best time to learn about our methodology"
+    },
+    "map": {
+      "title": "Map location"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "policies": {
+      "privacy": "Privacy",
+      "terms": "Terms of Use",
+      "imageRights": "Image Rights"
+    }
+  },
+  "cookies": {
+    "message": "We use cookies to improve your experience. By continuing to browse, you agree to our",
+    "policy": "Privacy Policy",
+    "accept": "Accept"
+  },
+  "common": {
+    "back": "Back",
+    "share": "Share",
+    "loading": "Loading...",
+    "error": "Error loading",
+    "tryAgain": "Try again"
+  },
+  "imageCredits": {
+    "personalArchive": "Personal archive photo",
+    "editorialUse": "Editorial/personal archive use",
+    "consentObtained": "Image consent obtained"
+  },
+  "error": {
+    "404": {
+      "title": "Page not found",
+      "description": "The page you are looking for does not exist or has been moved.",
+      "back": "Back to home"
+    },
+    "500": {
+      "title": "Something went wrong",
+      "description": "An unexpected error occurred. Please try again.",
+      "retry": "Try again"
+    }
+  }
+}

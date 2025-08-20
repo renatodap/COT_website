@@ -1,0 +1,41 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model ContactSubmission {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  phone     String
+  profile   String   // 'parent' | 'athlete' | 'club'
+  message   String
+  consent   Boolean  @default(false)
+  ip        String?
+  userAgent String?
+  locale    String?  // 'pt' | 'en'
+  createdAt DateTime @default(now())
+  emailSent Boolean  @default(false)
+  emailError String?
+  
+  @@index([email])
+  @@index([createdAt])
+}
+
+model NewsletterSubscription {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  locale    String   @default("pt")
+  active    Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  @@index([email])
+}

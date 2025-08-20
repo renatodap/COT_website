@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 200 15% 8%;
+    --card: 0 0% 100%;
+    --card-foreground: 200 15% 8%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 200 15% 8%;
+    --primary: 179 81% 27%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 200 8% 97%;
+    --secondary-foreground: 200 15% 8%;
+    --muted: 200 8% 97%;
+    --muted-foreground: 220 9% 46%;
+    --accent: 0 51% 46%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 51% 46%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 200 15% 90%;
+    --input: 200 15% 90%;
+    --ring: 179 81% 27%;
+    --radius: 0.5rem;
+    --font-inter: 'Inter', system-ui, 'Segoe UI', Arial, sans-serif;
+    --font-sora: 'Sora', system-ui, 'Segoe UI', Arial, sans-serif;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-family: var(--font-inter);
+  font-feature-settings: 'liga' 1, 'calt' 1;
+  line-height: 1.6;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .animate-in {
+    animation-duration: 150ms;
+    animation-fill-mode: both;
+  }
+  
+  .fade-in {
+    animation-name: fadeIn;
+  }
+  
+  .slide-in {
+    animation-name: slideIn;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
