@@ -678,133 +678,284 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* Career Timeline - 40 Years of Excellence */}
+        {/* Elite Tennis Connections - World Class Network */}
         <section className="py-24 bg-gray-900 text-white relative overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-r from-green-900/20 to-green-700/20"></div>
           <div className="container mx-auto px-4 relative z-10">
             <div className="text-center mb-16">
-              <h2 className="text-5xl font-bold mb-4">40 Anos de <span className="text-green-400">Excelência</span></h2>
-              <p className="text-xl text-gray-300">Uma jornada dedicada ao tênis brasileiro</p>
+              <h2 className="text-5xl font-bold mb-4">Conexões <span className="text-green-400">Mundiais</span></h2>
+              <p className="text-xl text-gray-300">Relacionamentos com a elite global do tênis</p>
             </div>
             
-            <div className="max-w-6xl mx-auto">
-              <div className="relative">
-                {/* Timeline line */}
-                <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-green-500 to-green-300"></div>
+            <div className="max-w-7xl mx-auto">
+              {/* Top Players Grid */}
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-12">
                 
-                {/* Timeline items */}
-                <div className="space-y-12">
-                  {/* 1980s - Beginning */}
-                  <div className="flex items-center relative">
-                    <div className="flex-1 text-right pr-8">
-                      <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
-                        <h3 className="text-2xl font-bold text-green-400 mb-2">1980</h3>
-                        <h4 className="text-xl font-semibold mb-3">Início da Jornada</h4>
-                        <p className="text-gray-300">De atleta a treinador, desenvolvendo metodologia própria</p>
-                      </div>
-                    </div>
-                    <div className="w-6 h-6 bg-green-500 rounded-full border-4 border-gray-900 z-10"></div>
-                    <div className="flex-1 pl-8"></div>
+                {/* Andy Murray */}
+                <div className="group">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 hover:bg-white/20 transition-all duration-300 border border-white/20">
+                    <img 
+                      src="/omaki/carlos_omaki_andy_murray.png" 
+                      alt="Carlos Omaki com Andy Murray" 
+                      className="w-full h-40 object-cover rounded-xl mb-3 group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <h3 className="font-bold text-white text-center">Andy Murray</h3>
+                    <p className="text-gray-300 text-xs text-center">Ex-#1 Mundial</p>
                   </div>
-                  
-                  {/* 2000s - Growth */}
-                  <div className="flex items-center relative">
-                    <div className="flex-1 pr-8"></div>
-                    <div className="w-6 h-6 bg-green-500 rounded-full border-4 border-gray-900 z-10"></div>
-                    <div className="flex-1 text-left pl-8">
-                      <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
-                        <h3 className="text-2xl font-bold text-green-400 mb-2">2000s</h3>
-                        <h4 className="text-xl font-semibold mb-3">Expansão Nacional</h4>
-                        <p className="text-gray-300">Formação dos primeiros campeões nacionais e internacionais</p>
-                      </div>
-                    </div>
+                </div>
+
+                {/* Carlos Alcaraz */}
+                <div className="group">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 hover:bg-white/20 transition-all duration-300 border border-white/20">
+                    <img 
+                      src="/omaki/carlos_omaki_carlos_alcaraz.png" 
+                      alt="Carlos Omaki com Carlos Alcaraz" 
+                      className="w-full h-40 object-cover rounded-xl mb-3 group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <h3 className="font-bold text-white text-center">Carlos Alcaraz</h3>
+                    <p className="text-gray-300 text-xs text-center">#1 Mundial Atual</p>
                   </div>
-                  
-                  {/* 2014-2015 - Recognition */}
-                  <div className="flex items-center relative">
-                    <div className="flex-1 text-right pr-8">
-                      <div className="bg-gradient-to-r from-yellow-900/30 to-yellow-800/30 backdrop-blur-sm p-6 rounded-2xl border border-yellow-500/30">
-                        <h3 className="text-2xl font-bold text-yellow-400 mb-2">2014-2015</h3>
-                        <h4 className="text-xl font-semibold mb-3">Reconhecimento Máximo</h4>
-                        <p className="text-gray-300">🏆 Melhor Treinador Brasileiro de Base (2 anos consecutivos)</p>
-                      </div>
-                    </div>
-                    <div className="w-8 h-8 bg-yellow-500 rounded-full border-4 border-gray-900 z-10 flex items-center justify-center">
-                      <svg className="w-4 h-4 text-gray-900" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </div>
+
+                {/* Dominic Thiem */}
+                <div className="group">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 hover:bg-white/20 transition-all duration-300 border border-white/20">
+                    <img 
+                      src="/omaki/carlos_omaki_dominic_thiem.png" 
+                      alt="Carlos Omaki com Dominic Thiem" 
+                      className="w-full h-40 object-cover rounded-xl mb-3 group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <h3 className="font-bold text-white text-center">Dominic Thiem</h3>
+                    <p className="text-gray-300 text-xs text-center">Campeão US Open</p>
+                  </div>
+                </div>
+
+                {/* Del Potro */}
+                <div className="group">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 hover:bg-white/20 transition-all duration-300 border border-white/20">
+                    <img 
+                      src="/omaki/carlos_omkai_juan_martin_del_potro.png" 
+                      alt="Carlos Omaki com Juan Martin Del Potro" 
+                      className="w-full h-40 object-cover rounded-xl mb-3 group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <h3 className="font-bold text-white text-center">Del Potro</h3>
+                    <p className="text-gray-300 text-xs text-center">Campeão US Open</p>
+                  </div>
+                </div>
+
+                {/* Bruno Soares */}
+                <div className="group">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 hover:bg-white/20 transition-all duration-300 border border-white/20">
+                    <img 
+                      src="/omaki/carlos_omaki_bruno_soares.png" 
+                      alt="Carlos Omaki com Bruno Soares" 
+                      className="w-full h-40 object-cover rounded-xl mb-3 group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <h3 className="font-bold text-white text-center">Bruno Soares</h3>
+                    <p className="text-gray-300 text-xs text-center">Lenda Brasileira</p>
+                  </div>
+                </div>
+
+                {/* Guga Kuerten */}
+                <div className="group">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 hover:bg-white/20 transition-all duration-300 border border-white/20">
+                    <img 
+                      src="/omaki/carlos_omaki_guga_kuerten.png" 
+                      alt="Carlos Omaki com Gustavo Kuerten" 
+                      className="w-full h-40 object-cover rounded-xl mb-3 group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <h3 className="font-bold text-white text-center">Guga Kuerten</h3>
+                    <p className="text-gray-300 text-xs text-center">3x Roland Garros</p>
+                  </div>
+                </div>
+
+                {/* Ettore Danesi */}
+                <div className="group">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 hover:bg-white/20 transition-all duration-300 border border-white/20">
+                    <img 
+                      src="/omaki/carlos_omaki_ettore_danesi.png" 
+                      alt="Carlos Omaki com Ettore Danesi" 
+                      className="w-full h-40 object-cover rounded-xl mb-3 group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <h3 className="font-bold text-white text-center">Ettore Danesi</h3>
+                    <p className="text-gray-300 text-xs text-center">Técnico Italiano</p>
+                  </div>
+                </div>
+
+                {/* Haroldo Omaki */}
+                <div className="group">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 hover:bg-white/20 transition-all duration-300 border border-white/20">
+                    <img 
+                      src="/omaki/carlos_omaki_haroldo_omaki_preparador_fisico_brothers.png" 
+                      alt="Carlos Omaki com Haroldo Omaki" 
+                      className="w-full h-40 object-cover rounded-xl mb-3 group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <h3 className="font-bold text-white text-center">Haroldo Omaki</h3>
+                    <p className="text-gray-300 text-xs text-center">Preparador Físico</p>
+                  </div>
+                </div>
+
+              </div>
+
+              {/* Gabriel Jaramillo Testimony */}
+              <div className="bg-gradient-to-r from-yellow-900/20 to-yellow-700/20 backdrop-blur-sm rounded-3xl p-8 border border-yellow-500/30 text-center mb-12">
+                <div className="flex items-center justify-center gap-4 mb-6">
+                  <img 
+                    src="/omaki/gabe_jaramillo_testimony.png" 
+                    alt="Gabriel Jaramillo" 
+                    className="w-20 h-20 rounded-full object-cover border-4 border-yellow-400"
+                  />
+                  <div className="text-left">
+                    <h3 className="text-2xl font-bold text-yellow-300">Gabriel Jaramillo</h3>
+                    <p className="text-yellow-100">Lendário técnico internacional</p>
+                  </div>
+                </div>
+                <blockquote className="text-2xl font-medium text-white mb-4">
+                  &ldquo;Grande Carlos. Keep up the good work. And good luck with the crianças. A big hug.&rdquo;
+                </blockquote>
+                <p className="text-yellow-200 text-lg">Reconhecimento de uma lenda mundial do tênis</p>
+              </div>
+
+              {/* Video Section Placeholder */}
+              <div className="grid lg:grid-cols-2 gap-8">
+                <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
+                  <h3 className="text-xl font-bold text-white mb-4">🎥 Depoimento Luisa Stefani</h3>
+                  <p className="text-gray-300 mb-4">Medalhista olímpica fala sobre o torneio de duplas com Carlos Omaki</p>
+                  <a 
+                    href="https://www.instagram.com/p/DCzsFRiP5zp/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 bg-pink-600 hover:bg-pink-700 text-white px-4 py-2 rounded-lg transition-colors"
+                  >
+                    <span>Ver no Instagram</span>
+                    <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/>
+                    </svg>
+                  </a>
+                </div>
+
+                <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
+                  <h3 className="text-xl font-bold text-white mb-4">🎥 Depoimento Bruno Soares</h3>
+                  <p className="text-gray-300 mb-4">Lenda do tênis brasileiro sobre Carlos Omaki</p>
+                  <a 
+                    href="https://www.instagram.com/p/DCy6AZORtU3/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 bg-pink-600 hover:bg-pink-700 text-white px-4 py-2 rounded-lg transition-colors"
+                  >
+                    <span>Ver no Instagram</span>
+                    <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        {/* Personal & Legacy Section */}
+        <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl font-bold text-gray-900 mb-4">Legado <span className="text-green-600">Pessoal</span></h2>
+              <p className="text-xl text-gray-600">O homem por trás da lenda do tênis</p>
+            </div>
+            
+            {/* Personal Life */}
+            <div className="max-w-4xl mx-auto mb-16">
+              <div className="bg-white rounded-3xl p-8 shadow-xl">
+                <div className="grid lg:grid-cols-2 gap-8 items-center">
+                  <div>
+                    <img 
+                      src="/omaki/carlos_omaki_evelyn_rosa_wife.png" 
+                      alt="Carlos Omaki com esposa Evelyn Rosa" 
+                      className="w-full h-80 object-cover rounded-2xl shadow-lg"
+                    />
+                  </div>
+                  <div>
+                    <h3 className="text-3xl font-bold text-gray-900 mb-4">Família e Valores</h3>
+                    <p className="text-lg text-gray-700 mb-6">
+                      Ao lado de Evelyn Rosa, Carlos Omaki construiu não apenas uma carreira excepcional, 
+                      mas também uma base familiar sólida que reflete os mesmos valores de dedicação e 
+                      excelência que aplica ao tênis.
+                    </p>
+                    <p className="text-gray-600">
+                      A parceria pessoal e profissional que fortalece sua metodologia de formação de campeões.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Tournament Success */}
+            <div className="max-w-6xl mx-auto mb-16">
+              <div className="text-center mb-12">
+                <h3 className="text-3xl font-bold text-gray-900 mb-4">Competindo Junto aos Atletas</h3>
+                <p className="text-xl text-gray-600">A experiência prática que faz a diferença</p>
+              </div>
+              
+              <div className="bg-white rounded-3xl p-8 shadow-xl">
+                <div className="grid lg:grid-cols-2 gap-8 items-center">
+                  <div>
+                    <h4 className="text-2xl font-bold text-gray-900 mb-4">Torneio de Duplas</h4>
+                    <p className="text-lg text-gray-700 mb-4">
+                      <strong className="text-green-700">Luisa Stefani & Carlos Omaki</strong> - Uma parceria única que 
+                      demonstra o comprometimento total do técnico com seus atletas.
+                    </p>
+                    <p className="text-gray-600 mb-6">
+                      Competir ao lado dos atletas proporciona uma compreensão prática inigualável 
+                      dos desafios enfrentados em quadra.
+                    </p>
+                    <a 
+                      href="https://www.instagram.com/p/DCp5aDLAkK1/?img_index=1" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg transition-colors"
+                    >
+                      <span>Ver no Instagram</span>
+                      <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/>
                       </svg>
-                    </div>
-                    <div className="flex-1 pl-8"></div>
+                    </a>
                   </div>
-                  
-                  {/* 2020 - Olympic Success */}
-                  <div className="flex items-center relative">
-                    <div className="flex-1 pr-8"></div>
-                    <div className="w-8 h-8 bg-yellow-500 rounded-full border-4 border-gray-900 z-10 flex items-center justify-center">
-                      <span className="text-xs font-bold text-gray-900">🥉</span>
-                    </div>
-                    <div className="flex-1 text-left pl-8">
-                      <div className="bg-gradient-to-r from-blue-900/30 to-blue-800/30 backdrop-blur-sm p-6 rounded-2xl border border-blue-500/30">
-                        <h3 className="text-2xl font-bold text-blue-400 mb-2">2020</h3>
-                        <h4 className="text-xl font-semibold mb-3">Glória Olímpica</h4>
-                        <p className="text-gray-300">Luisa Stefani conquista bronze em Tóquio 2020</p>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  {/* 2023 - Roland Garros */}
-                  <div className="flex items-center relative">
-                    <div className="flex-1 text-right pr-8">
-                      <div className="bg-gradient-to-r from-orange-900/30 to-orange-800/30 backdrop-blur-sm p-6 rounded-2xl border border-orange-500/30">
-                        <h3 className="text-2xl font-bold text-orange-400 mb-2">2023</h3>
-                        <h4 className="text-xl font-semibold mb-3">Roland Garros</h4>
-                        <p className="text-gray-300">Bia Haddad Maia - Semifinalista histórica</p>
-                      </div>
-                    </div>
-                    <div className="w-6 h-6 bg-orange-500 rounded-full border-4 border-gray-900 z-10"></div>
-                    <div className="flex-1 pl-8"></div>
-                  </div>
-                  
-                  {/* 2024 - Legacy */}
-                  <div className="flex items-center relative">
-                    <div className="flex-1 pr-8"></div>
-                    <div className="w-6 h-6 bg-green-500 rounded-full border-4 border-gray-900 z-10"></div>
-                    <div className="flex-1 text-left pl-8">
-                      <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
-                        <h3 className="text-2xl font-bold text-green-400 mb-2">2024</h3>
-                        <h4 className="text-xl font-semibold mb-3">Legado Consolidado</h4>
-                        <p className="text-gray-300">500+ atletas ativos, Memorial do Tênis, impacto global</p>
+                  <div>
+                    <div className="relative group">
+                      <img 
+                        src="/omaki/carlos_omaki_alone_full_body_at_the_net_clay_court.png" 
+                        alt="Carlos Omaki em quadra de saibro" 
+                        className="w-full h-96 object-cover rounded-2xl shadow-lg group-hover:scale-105 transition-transform duration-500"
+                      />
+                      <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm rounded-lg px-4 py-2">
+                        <p className="text-sm font-semibold text-gray-800">40 anos de dedicação</p>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </section>
 
-        {/* Legacy & Connections Section */}
-        <section className="py-16 bg-gray-50">
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Conexões e Legado</h2>
-            <div className="grid md:grid-cols-2 gap-8 mb-12">
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+            {/* International Connections */}
+            <div className="grid lg:grid-cols-2 gap-8">
+              <div className="bg-white p-6 rounded-2xl shadow-lg">
                 <img 
                   src="/omaki/omaki_federer.jpg" 
                   alt="Carlos Omaki com Roger Federer" 
-                  className="w-full h-64 object-cover rounded-lg mb-4"
+                  className="w-full h-64 object-cover rounded-xl mb-4"
                 />
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">Intercâmbio Internacional</h3>
-                <p className="text-gray-600">Experiências com os maiores nomes do tênis mundial</p>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Intercâmbio Internacional</h3>
+                <p className="text-gray-600">Relacionamentos com a elite mundial do tênis</p>
               </div>
-              <div className="bg-white p-6 rounded-lg shadow-sm">
+              
+              <div className="bg-white p-6 rounded-2xl shadow-lg">
                 <img 
                   src="/omaki/omaki_kyrmair.jpg" 
                   alt="Carlos Omaki com Carlos Kirmayr" 
-                  className="w-full h-64 object-cover rounded-lg mb-4"
+                  className="w-full h-64 object-cover rounded-xl mb-4"
                 />
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">Tradição Brasileira</h3>
-                <p className="text-gray-600">Parceria com lendas do tênis nacional no Memorial do Tênis</p>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">Tradição Brasileira</h3>
+                <p className="text-gray-600">Memorial do Tênis Brasileiro - preservando a história</p>
               </div>
             </div>
           </div>
