@@ -27,7 +27,13 @@ export default function HomePage() {
         <nav className="bg-white shadow-sm sticky top-0 z-50">
           <div className="container mx-auto px-4 py-4">
             <div className="flex justify-between items-center">
-              <h1 className="text-2xl font-bold text-green-800">Carlos Omaki Tênis</h1>
+              <div className="flex items-center space-x-4">
+                <img src="/omaki/omaki_logo.png" alt="COT - Carlos Omaki Tennis" className="h-12 w-auto" />
+                <div>
+                  <h1 className="text-2xl font-bold text-green-800">COT</h1>
+                  <p className="text-sm text-gray-600">Carlos Omaki Tennis</p>
+                </div>
+              </div>
               <div className="hidden md:flex space-x-6">
                 <a href="#sobre" className="text-gray-700 hover:text-green-800">Sobre</a>
                 <a href="#filosofia" className="text-gray-700 hover:text-green-800">Filosofia</a>
@@ -40,15 +46,22 @@ export default function HomePage() {
         </nav>
 
         {/* Hero Section */}
-        <header className="bg-gradient-to-r from-green-800 to-green-600 text-white py-20">
-          <div className="container mx-auto px-4 text-center">
+        <header className="relative bg-gradient-to-r from-green-800 to-green-600 text-white py-20 overflow-hidden">
+          <div className="absolute inset-0 z-0">
+            <img 
+              src="/omaki/omaki_coaching_on_court.jpg" 
+              alt="Carlos Omaki coaching on court" 
+              className="w-full h-full object-cover opacity-20"
+            />
+          </div>
+          <div className="container mx-auto px-4 text-center relative z-10">
             <div className="max-w-4xl mx-auto">
               <div className="bg-green-700 text-green-100 px-4 py-2 rounded-full text-sm font-semibold inline-block mb-6">
                 Melhor Treinador Brasileiro de Base 2014 & 2015
               </div>
               <h1 className="text-6xl font-bold mb-4">Carlos Omaki</h1>
               <p className="text-2xl mb-4">40 anos formando campeões</p>
-              <p className="text-xl mb-8 text-green-100">Tênis, método e legado</p>
+              <p className="text-xl mb-8 text-green-100">COT - Carlos Omaki Tennis</p>
               <div className="space-x-4">
                 <a href="#contato" className="bg-white text-green-800 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 inline-block transition-colors">
                   Agendar avaliação
@@ -88,9 +101,29 @@ export default function HomePage() {
         {/* About Section */}
         <section id="sobre" className="py-20 bg-white">
           <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
+            <div className="max-w-6xl mx-auto">
               <h2 className="text-4xl font-bold text-center text-gray-900 mb-8">Uma Carreira de 40 Anos</h2>
-              <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
+              <div className="grid lg:grid-cols-2 gap-12 items-center mb-12">
+                <div className="space-y-6">
+                  <img 
+                    src="/omaki/omaki_team.jpg" 
+                    alt="Carlos Omaki com sua equipe técnica" 
+                    className="rounded-lg shadow-lg w-full h-64 object-cover"
+                  />
+                  <div className="grid grid-cols-2 gap-4">
+                    <img 
+                      src="/omaki/clube_paulistano.jpg" 
+                      alt="Club Athletico Paulistano" 
+                      className="rounded-lg shadow-sm w-full h-32 object-cover"
+                    />
+                    <img 
+                      src="/omaki/trophy.webp" 
+                      alt="Troféu Melhor Treinador" 
+                      className="rounded-lg shadow-sm w-full h-32 object-cover"
+                    />
+                  </div>
+                </div>
+                <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
                 <p className="text-xl leading-relaxed">
                   Carlos Omaki é um dos mais experientes treinadores de tênis do Brasil, com cerca de 40 anos de carreira 
                   dedicados à formação de atletas. Eleito <strong>Melhor Treinador Brasileiro de Categorias de Base em 2014 e 2015</strong>, 
@@ -110,6 +143,7 @@ export default function HomePage() {
                   passou a integrar a diretoria do <strong>Memorial Tênis Brasileiro</strong>, iniciativa pioneira que está criando 
                   o museu, biblioteca e Hall da Fama do tênis nacional.
                 </p>
+                </div>
               </div>
             </div>
           </div>
@@ -167,13 +201,34 @@ export default function HomePage() {
               </div>
             </div>
 
-            <div className="bg-green-800 text-white p-8 rounded-lg">
-              <blockquote className="text-xl italic text-center max-w-4xl mx-auto">
-                &ldquo;Mais valioso que títulos é colecionar números de amantes do tênis espalhados pelo mundo – 
-                atletas que influenciamos a amar o esporte e que seguem ligados ao tênis, seja como jogadores 
-                profissionais ou em outras carreiras na área.&rdquo;
-                <footer className="mt-4 text-green-200">— Carlos Omaki</footer>
-              </blockquote>
+            <div className="grid lg:grid-cols-2 gap-8 items-center mb-8">
+              <div className="bg-green-800 text-white p-8 rounded-lg">
+                <blockquote className="text-xl italic">
+                  &ldquo;Mais valioso que títulos é colecionar números de amantes do tênis espalhados pelo mundo – 
+                  atletas que influenciamos a amar o esporte e que seguem ligados ao tênis, seja como jogadores 
+                  profissionais ou em outras carreiras na área.&rdquo;
+                  <footer className="mt-4 text-green-200">— Carlos Omaki</footer>
+                </blockquote>
+              </div>
+              <div className="space-y-4">
+                <img 
+                  src="/omaki/omaki_athletes_academy.jpg" 
+                  alt="Atletas da Academia COT em treinamento" 
+                  className="rounded-lg shadow-lg w-full h-48 object-cover"
+                />
+                <div className="grid grid-cols-2 gap-4">
+                  <img 
+                    src="/omaki/omaki_travel.jpg" 
+                    alt="Caravana de torneios COT" 
+                    className="rounded-lg shadow-sm w-full h-24 object-cover"
+                  />
+                  <img 
+                    src="/omaki/travel2.jpg" 
+                    alt="Viagens competitivas COT" 
+                    className="rounded-lg shadow-sm w-full h-24 object-cover"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -187,9 +242,18 @@ export default function HomePage() {
             </div>
             
             <div className="grid md:grid-cols-2 gap-8 mb-12">
-              <div className="bg-gradient-to-r from-green-50 to-green-100 p-8 rounded-lg">
-                <h3 className="text-2xl font-bold mb-4 text-green-800">Beatriz Haddad Maia</h3>
-                <p className="text-green-700 font-semibold mb-2">Atual número 1 do Brasil</p>
+              <div className="bg-gradient-to-r from-green-50 to-green-100 p-8 rounded-lg relative">
+                <div className="flex items-center gap-6 mb-6">
+                  <img 
+                    src="/omaki/omaki_biahaddad.jpg" 
+                    alt="Carlos Omaki com Beatriz Haddad Maia" 
+                    className="w-20 h-20 rounded-full object-cover border-4 border-green-200"
+                  />
+                  <div>
+                    <h3 className="text-2xl font-bold text-green-800">Beatriz Haddad Maia</h3>
+                    <p className="text-green-700 font-semibold">Atual número 1 do Brasil</p>
+                  </div>
+                </div>
                 <ul className="text-gray-700 space-y-1">
                   <li>• Top 15 mundial WTA</li>
                   <li>• Semifinalista Roland Garros 2023</li>
@@ -197,9 +261,18 @@ export default function HomePage() {
                 </ul>
               </div>
               
-              <div className="bg-gradient-to-r from-blue-50 to-blue-100 p-8 rounded-lg">
-                <h3 className="text-2xl font-bold mb-4 text-blue-800">Luisa Stefani</h3>
-                <p className="text-blue-700 font-semibold mb-2">Medalhista Olímpica</p>
+              <div className="bg-gradient-to-r from-blue-50 to-blue-100 p-8 rounded-lg relative">
+                <div className="flex items-center gap-6 mb-6">
+                  <img 
+                    src="/omaki/omaki_stefani.jpeg" 
+                    alt="Carlos Omaki com Luisa Stefani" 
+                    className="w-20 h-20 rounded-full object-cover border-4 border-blue-200"
+                  />
+                  <div>
+                    <h3 className="text-2xl font-bold text-blue-800">Luisa Stefani</h3>
+                    <p className="text-blue-700 font-semibold">Medalhista Olímpica</p>
+                  </div>
+                </div>
                 <ul className="text-gray-700 space-y-1">
                   <li>• Bronze Tóquio 2020 (duplas)</li>
                   <li>• Top 10 mundial em duplas</li>
@@ -273,6 +346,33 @@ export default function HomePage() {
           </div>
         </section>
 
+        {/* Legacy & Connections Section */}
+        <section className="py-16 bg-gray-50">
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Conexões e Legado</h2>
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <img 
+                  src="/omaki/omaki_federer.jpg" 
+                  alt="Carlos Omaki com Roger Federer" 
+                  className="w-full h-64 object-cover rounded-lg mb-4"
+                />
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">Intercâmbio Internacional</h3>
+                <p className="text-gray-600">Experiências com os maiores nomes do tênis mundial</p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-sm">
+                <img 
+                  src="/omaki/omaki_kyrmair.jpg" 
+                  alt="Carlos Omaki com Carlos Kirmayr" 
+                  className="w-full h-64 object-cover rounded-lg mb-4"
+                />
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">Tradição Brasileira</h3>
+                <p className="text-gray-600">Parceria com lendas do tênis nacional no Memorial do Tênis</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Press Section */}
         <section className="py-16 bg-white">
           <div className="container mx-auto px-4">
@@ -301,14 +401,15 @@ export default function HomePage() {
         {/* Contact Section */}
         <section id="contato" className="py-20 bg-green-800 text-white">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-4xl font-bold mb-4">Vamos Conversar</h2>
+            <h2 className="text-4xl font-bold mb-4">Entre em Contato</h2>
+            <p className="text-2xl mb-4 text-green-100 font-semibold">COT - Carlos Omaki Tennis</p>
             <p className="text-xl mb-12 text-green-100 max-w-2xl mx-auto">
               Agende uma avaliação personalizada ou tire suas dúvidas sobre nossos programas de treinamento
             </p>
             
             <div className="grid md:grid-cols-3 gap-8 mb-12">
               <div className="text-center">
-                <h3 className="text-xl font-semibold mb-4">Academia Carlos Omaki Tênis</h3>
+                <h3 className="text-xl font-semibold mb-4">COT - Carlos Omaki Tennis</h3>
                 <p className="text-green-200">Club Athletico Paulistano</p>
                 <p className="text-green-200">Academia Paulistana de Tênis</p>
                 <p className="text-green-200">Tênis Clube Paulista</p>
@@ -347,7 +448,13 @@ export default function HomePage() {
         <footer className="bg-gray-900 text-white py-12">
           <div className="container mx-auto px-4">
             <div className="text-center mb-8">
-              <h3 className="text-2xl font-bold mb-4">Carlos Omaki Tênis</h3>
+              <div className="flex items-center justify-center space-x-4 mb-4">
+                <img src="/omaki/omaki_logo.png" alt="COT Logo" className="h-10 w-auto" />
+                <div>
+                  <h3 className="text-2xl font-bold">COT</h3>
+                  <p className="text-gray-400 text-sm">Carlos Omaki Tennis</p>
+                </div>
+              </div>
               <p className="text-gray-400 max-w-2xl mx-auto">
                 40 anos formando campeões brasileiros. Melhor Treinador de Categorias de Base 2014/2015. 
                 Dedicação integral ao desenvolvimento do tênis nacional.
@@ -356,7 +463,7 @@ export default function HomePage() {
             
             <div className="border-t border-gray-800 pt-8 text-center">
               <p className="text-gray-400">
-                &copy; 2024 Carlos Omaki Tênis. Todos os direitos reservados.
+                &copy; 2024 COT - Carlos Omaki Tennis. Todos os direitos reservados.
               </p>
               <p className="text-gray-500 text-sm mt-2">
                 Desenvolvido com paixão pelo tênis brasileiro
