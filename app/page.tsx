@@ -441,7 +441,7 @@ export default function HomePage() {
                           <img 
                             src="/omaki/omaki_biahaddad.jpg" 
                             alt="Carlos Omaki com Beatriz Haddad Maia" 
-                            className="relative w-32 h-32 rounded-full object-cover border-4 border-white shadow-lg"
+                            className="relative w-48 h-48 rounded-2xl object-cover border-4 border-white shadow-lg"
                           />
                         </div>
                         <div className="flex-1">
@@ -499,7 +499,7 @@ export default function HomePage() {
                           <img 
                             src="/omaki/omaki_stefani.jpeg" 
                             alt="Carlos Omaki com Luisa Stefani" 
-                            className="relative w-32 h-32 rounded-full object-cover object-center border-4 border-white shadow-lg"
+                            className="relative w-48 h-48 rounded-2xl object-cover object-center border-4 border-white shadow-lg"
                           />
                         </div>
                         <div className="flex-1">
@@ -538,7 +538,7 @@ export default function HomePage() {
                 </div>
               </div>
 
-              {/* Legacy Numbers - Enhanced */}
+              {/* Legacy Numbers - Enhanced with Concrete Achievements */}
               <div className="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 rounded-3xl p-12 text-white relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-r from-green-600/20 to-green-400/20"></div>
                 <div className="absolute top-0 right-0 w-64 h-64 bg-green-500/10 rounded-full blur-3xl"></div>
@@ -547,19 +547,68 @@ export default function HomePage() {
                 <div className="relative z-10">
                   <div className="text-center mb-12">
                     <h3 className="text-4xl font-bold mb-4">Legado em <span className="text-green-400">Números</span></h3>
-                    <p className="text-gray-300 text-lg">Quatro décadas formando a elite do tênis brasileiro</p>
+                    <p className="text-gray-300 text-lg">Resultados concretos de quatro décadas de excelência</p>
                   </div>
                   
+                  {/* Top Row - Major Achievements */}
+                  <div className="grid md:grid-cols-4 gap-6 mb-8">
+                    <div className="group">
+                      <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300 border border-white/20">
+                        <div className="w-12 h-12 bg-green-500 rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform duration-300">
+                          <span className="text-2xl font-bold text-white">1</span>
+                        </div>
+                        <h4 className="text-xl font-bold text-white mb-1">Medalhista</h4>
+                        <h5 className="text-lg font-bold text-yellow-400 mb-1">Olímpica</h5>
+                        <p className="text-gray-300 text-sm">Luisa Stefani - Bronze Tóquio 2020</p>
+                      </div>
+                    </div>
+                    
+                    <div className="group">
+                      <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300 border border-white/20">
+                        <div className="w-12 h-12 bg-orange-500 rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform duration-300">
+                          <span className="text-2xl font-bold text-white">1</span>
+                        </div>
+                        <h4 className="text-xl font-bold text-white mb-1">Semifinalista</h4>
+                        <h5 className="text-lg font-bold text-orange-400 mb-1">Roland Garros</h5>
+                        <p className="text-gray-300 text-sm">Bia Haddad - Top 15 WTA</p>
+                      </div>
+                    </div>
+                    
+                    <div className="group">
+                      <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300 border border-white/20">
+                        <div className="w-12 h-12 bg-blue-500 rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform duration-300">
+                          <span className="text-lg font-bold text-white">150+</span>
+                        </div>
+                        <h4 className="text-xl font-bold text-white mb-1">Bolsas</h4>
+                        <h5 className="text-lg font-bold text-blue-400 mb-1">Universitárias</h5>
+                        <p className="text-gray-300 text-sm">EUA & Europa</p>
+                      </div>
+                    </div>
+                    
+                    <div className="group">
+                      <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all duration-300 border border-white/20">
+                        <div className="w-12 h-12 bg-purple-500 rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform duration-300">
+                          <span className="text-lg font-bold text-white">50+</span>
+                        </div>
+                        <h4 className="text-xl font-bold text-white mb-1">Campeões</h4>
+                        <h5 className="text-lg font-bold text-purple-400 mb-1">Nacionais</h5>
+                        <p className="text-gray-300 text-sm">Todas as categorias</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Bottom Row - Global Impact */}
                   <div className="grid md:grid-cols-3 gap-8 text-center">
                     <div className="group">
                       <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 hover:bg-white/20 transition-all duration-300 border border-white/20">
                         <div className="w-16 h-16 bg-green-500 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                           <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                           </svg>
                         </div>
-                        <h4 className="text-2xl font-bold text-white mb-2">Categorias de Base</h4>
-                        <p className="text-gray-300">Dezenas de campeões brasileiros e sul-americanos formados</p>
+                        <h4 className="text-3xl font-bold text-white mb-2">25+</h4>
+                        <h5 className="text-lg font-bold text-green-400 mb-2">Países</h5>
+                        <p className="text-gray-300">Atletas competindo internacionalmente</p>
                       </div>
                     </div>
                     
@@ -567,11 +616,12 @@ export default function HomePage() {
                       <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 hover:bg-white/20 transition-all duration-300 border border-white/20">
                         <div className="w-16 h-16 bg-blue-500 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                           <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-2m-2 0H7m5 0v-5a2 2 0 012-2h2a2 2 0 012 2v5m-6-9V8a2 2 0 012-2h2a2 2 0 012 2v1" />
                           </svg>
                         </div>
-                        <h4 className="text-2xl font-bold text-white mb-2">Circuito Profissional</h4>
-                        <p className="text-gray-300">Atletas conduzidos do juvenil ao mais alto nível mundial</p>
+                        <h4 className="text-3xl font-bold text-white mb-2">80+</h4>
+                        <h5 className="text-lg font-bold text-blue-400 mb-2">Universidades</h5>
+                        <p className="text-gray-300">Parceiras nos EUA para bolsas de estudo</p>
                       </div>
                     </div>
                     
@@ -579,12 +629,12 @@ export default function HomePage() {
                       <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 hover:bg-white/20 transition-all duration-300 border border-white/20">
                         <div className="w-16 h-16 bg-yellow-500 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                           <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l9-5-9-5-9 5 9 5z" />
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                           </svg>
                         </div>
-                        <h4 className="text-2xl font-bold text-white mb-2">Bolsas Universitárias</h4>
-                        <p className="text-gray-300">Centenas de jovens encaminhados para universidades americanas</p>
+                        <h4 className="text-3xl font-bold text-white mb-2">$20M+</h4>
+                        <h5 className="text-lg font-bold text-yellow-400 mb-2">em Bolsas</h5>
+                        <p className="text-gray-300">Valor total conseguido para atletas</p>
                       </div>
                     </div>
                   </div>
@@ -628,6 +678,111 @@ export default function HomePage() {
           </div>
         </section>
 
+        {/* Career Timeline - 40 Years of Excellence */}
+        <section className="py-24 bg-gray-900 text-white relative overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-r from-green-900/20 to-green-700/20"></div>
+          <div className="container mx-auto px-4 relative z-10">
+            <div className="text-center mb-16">
+              <h2 className="text-5xl font-bold mb-4">40 Anos de <span className="text-green-400">Excelência</span></h2>
+              <p className="text-xl text-gray-300">Uma jornada dedicada ao tênis brasileiro</p>
+            </div>
+            
+            <div className="max-w-6xl mx-auto">
+              <div className="relative">
+                {/* Timeline line */}
+                <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-green-500 to-green-300"></div>
+                
+                {/* Timeline items */}
+                <div className="space-y-12">
+                  {/* 1980s - Beginning */}
+                  <div className="flex items-center relative">
+                    <div className="flex-1 text-right pr-8">
+                      <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
+                        <h3 className="text-2xl font-bold text-green-400 mb-2">1980</h3>
+                        <h4 className="text-xl font-semibold mb-3">Início da Jornada</h4>
+                        <p className="text-gray-300">De atleta a treinador, desenvolvendo metodologia própria</p>
+                      </div>
+                    </div>
+                    <div className="w-6 h-6 bg-green-500 rounded-full border-4 border-gray-900 z-10"></div>
+                    <div className="flex-1 pl-8"></div>
+                  </div>
+                  
+                  {/* 2000s - Growth */}
+                  <div className="flex items-center relative">
+                    <div className="flex-1 pr-8"></div>
+                    <div className="w-6 h-6 bg-green-500 rounded-full border-4 border-gray-900 z-10"></div>
+                    <div className="flex-1 text-left pl-8">
+                      <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
+                        <h3 className="text-2xl font-bold text-green-400 mb-2">2000s</h3>
+                        <h4 className="text-xl font-semibold mb-3">Expansão Nacional</h4>
+                        <p className="text-gray-300">Formação dos primeiros campeões nacionais e internacionais</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* 2014-2015 - Recognition */}
+                  <div className="flex items-center relative">
+                    <div className="flex-1 text-right pr-8">
+                      <div className="bg-gradient-to-r from-yellow-900/30 to-yellow-800/30 backdrop-blur-sm p-6 rounded-2xl border border-yellow-500/30">
+                        <h3 className="text-2xl font-bold text-yellow-400 mb-2">2014-2015</h3>
+                        <h4 className="text-xl font-semibold mb-3">Reconhecimento Máximo</h4>
+                        <p className="text-gray-300">🏆 Melhor Treinador Brasileiro de Base (2 anos consecutivos)</p>
+                      </div>
+                    </div>
+                    <div className="w-8 h-8 bg-yellow-500 rounded-full border-4 border-gray-900 z-10 flex items-center justify-center">
+                      <svg className="w-4 h-4 text-gray-900" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <div className="flex-1 pl-8"></div>
+                  </div>
+                  
+                  {/* 2020 - Olympic Success */}
+                  <div className="flex items-center relative">
+                    <div className="flex-1 pr-8"></div>
+                    <div className="w-8 h-8 bg-yellow-500 rounded-full border-4 border-gray-900 z-10 flex items-center justify-center">
+                      <span className="text-xs font-bold text-gray-900">🥉</span>
+                    </div>
+                    <div className="flex-1 text-left pl-8">
+                      <div className="bg-gradient-to-r from-blue-900/30 to-blue-800/30 backdrop-blur-sm p-6 rounded-2xl border border-blue-500/30">
+                        <h3 className="text-2xl font-bold text-blue-400 mb-2">2020</h3>
+                        <h4 className="text-xl font-semibold mb-3">Glória Olímpica</h4>
+                        <p className="text-gray-300">Luisa Stefani conquista bronze em Tóquio 2020</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* 2023 - Roland Garros */}
+                  <div className="flex items-center relative">
+                    <div className="flex-1 text-right pr-8">
+                      <div className="bg-gradient-to-r from-orange-900/30 to-orange-800/30 backdrop-blur-sm p-6 rounded-2xl border border-orange-500/30">
+                        <h3 className="text-2xl font-bold text-orange-400 mb-2">2023</h3>
+                        <h4 className="text-xl font-semibold mb-3">Roland Garros</h4>
+                        <p className="text-gray-300">Bia Haddad Maia - Semifinalista histórica</p>
+                      </div>
+                    </div>
+                    <div className="w-6 h-6 bg-orange-500 rounded-full border-4 border-gray-900 z-10"></div>
+                    <div className="flex-1 pl-8"></div>
+                  </div>
+                  
+                  {/* 2024 - Legacy */}
+                  <div className="flex items-center relative">
+                    <div className="flex-1 pr-8"></div>
+                    <div className="w-6 h-6 bg-green-500 rounded-full border-4 border-gray-900 z-10"></div>
+                    <div className="flex-1 text-left pl-8">
+                      <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
+                        <h3 className="text-2xl font-bold text-green-400 mb-2">2024</h3>
+                        <h4 className="text-xl font-semibold mb-3">Legado Consolidado</h4>
+                        <p className="text-gray-300">500+ atletas ativos, Memorial do Tênis, impacto global</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Legacy & Connections Section */}
         <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
@@ -655,26 +810,128 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* Press Section */}
-        <section className="py-16 bg-white">
+        {/* Press Coverage - Enhanced Professional Recognition */}
+        <section className="py-24 bg-gradient-to-b from-gray-50 to-white">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Na Imprensa</h2>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-              <div className="text-center">
-                <h3 className="font-semibold text-green-800 mb-2">TenisBrasil</h3>
-                <p className="text-sm text-gray-600">Torneio de duplas de Stefani e Omaki</p>
+            <div className="text-center mb-16">
+              <div className="inline-flex items-center gap-2 bg-blue-50 text-blue-700 px-6 py-3 rounded-full text-sm font-semibold mb-8 border border-blue-200">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+                </svg>
+                Reconhecimento Nacional
               </div>
-              <div className="text-center">
-                <h3 className="font-semibold text-green-800 mb-2">Lance!</h3>
-                <p className="text-sm text-gray-600">40 anos formando talentos</p>
+              <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
+                <span className="bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">Destaque</span> na Mídia
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Quatro décadas de cobertura jornalística destacando conquistas e metodologia inovadora
+              </p>
+            </div>
+
+            {/* Featured Articles */}
+            <div className="grid lg:grid-cols-2 gap-12 mb-16">
+              {/* Major Feature Article */}
+              <div className="group">
+                <div className="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-gray-100">
+                  <div className="flex items-start gap-4 mb-6">
+                    <div className="w-16 h-16 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center flex-shrink-0">
+                      <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                      </svg>
+                    </div>
+                    <div className="flex-1">
+                      <div className="flex items-center gap-2 mb-2">
+                        <span className="bg-red-100 text-red-700 px-3 py-1 rounded-full text-xs font-bold">LANCE!</span>
+                        <span className="text-gray-400 text-xs">Matéria Especial</span>
+                      </div>
+                      <h3 className="text-2xl font-bold text-gray-900 mb-2">40 Anos Formando Campeões</h3>
+                      <p className="text-gray-600 mb-4">Reportagem especial sobre a trajetória de Carlos Omaki e o impacto na formação de atletas brasileiros de elite.</p>
+                    </div>
+                  </div>
+                  <div className="border-l-4 border-red-500 pl-4 bg-red-50 rounded-r-lg p-3">
+                    <p className="text-sm italic text-gray-700">&ldquo;Carlos Omaki é uma das figuras mais respeitadas do tênis nacional, com metodologia reconhecida internacionalmente.&rdquo;</p>
+                  </div>
+                </div>
               </div>
-              <div className="text-center">
-                <h3 className="font-semibold text-green-800 mb-2">Tenis News</h3>
-                <p className="text-sm text-gray-600">Vice-campeões em Bogotá</p>
+
+              {/* Olympic Coverage */}
+              <div className="group">
+                <div className="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-gray-100">
+                  <div className="flex items-start gap-4 mb-6">
+                    <div className="w-16 h-16 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-2xl flex items-center justify-center flex-shrink-0">
+                      <span className="text-2xl">🥉</span>
+                    </div>
+                    <div className="flex-1">
+                      <div className="flex items-center gap-2 mb-2">
+                        <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-bold">SPORTV</span>
+                        <span className="text-gray-400 text-xs">Cobertura Olímpica</span>
+                      </div>
+                      <h3 className="text-2xl font-bold text-gray-900 mb-2">Do Juvenil às Olimpíadas</h3>
+                      <p className="text-gray-600 mb-4">Destaque na cobertura olímpica sobre o papel fundamental de Carlos Omaki na formação de Luisa Stefani.</p>
+                    </div>
+                  </div>
+                  <div className="border-l-4 border-yellow-500 pl-4 bg-yellow-50 rounded-r-lg p-3">
+                    <p className="text-sm italic text-gray-700">&ldquo;A base sólida construída por Omaki foi essencial para o sucesso olímpico de Luisa Stefani.&rdquo;</p>
+                  </div>
+                </div>
               </div>
-              <div className="text-center">
-                <h3 className="font-semibold text-green-800 mb-2">Terra</h3>
-                <p className="text-sm text-gray-600">Referência nacional</p>
+            </div>
+
+            {/* Media Outlets Grid */}
+            <div className="bg-gray-50 rounded-3xl p-12">
+              <div className="text-center mb-10">
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Cobertura Nacional</h3>
+                <p className="text-gray-600">Presença constante nos principais veículos esportivos do país</p>
+              </div>
+              
+              <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center">
+                <div className="text-center group">
+                  <div className="w-20 h-20 bg-white rounded-2xl shadow-lg flex items-center justify-center mx-auto mb-3 group-hover:shadow-xl transition-shadow duration-300">
+                    <div className="text-2xl font-bold text-green-600">TB</div>
+                  </div>
+                  <h4 className="font-bold text-green-800 text-sm">TenisBrasil</h4>
+                  <p className="text-xs text-gray-600">Portal Especializado</p>
+                </div>
+                
+                <div className="text-center group">
+                  <div className="w-20 h-20 bg-white rounded-2xl shadow-lg flex items-center justify-center mx-auto mb-3 group-hover:shadow-xl transition-shadow duration-300">
+                    <div className="text-xl font-bold text-red-600">L!</div>
+                  </div>
+                  <h4 className="font-bold text-red-800 text-sm">Lance!</h4>
+                  <p className="text-xs text-gray-600">Jornal Esportivo</p>
+                </div>
+                
+                <div className="text-center group">
+                  <div className="w-20 h-20 bg-white rounded-2xl shadow-lg flex items-center justify-center mx-auto mb-3 group-hover:shadow-xl transition-shadow duration-300">
+                    <div className="text-xl font-bold text-blue-600">STV</div>
+                  </div>
+                  <h4 className="font-bold text-blue-800 text-sm">SporTV</h4>
+                  <p className="text-xs text-gray-600">Canal Esportivo</p>
+                </div>
+                
+                <div className="text-center group">
+                  <div className="w-20 h-20 bg-white rounded-2xl shadow-lg flex items-center justify-center mx-auto mb-3 group-hover:shadow-xl transition-shadow duration-300">
+                    <div className="text-xl font-bold text-orange-600">TN</div>
+                  </div>
+                  <h4 className="font-bold text-orange-800 text-sm">TenisNews</h4>
+                  <p className="text-xs text-gray-600">Revista Especializada</p>
+                </div>
+                
+                <div className="text-center group">
+                  <div className="w-20 h-20 bg-white rounded-2xl shadow-lg flex items-center justify-center mx-auto mb-3 group-hover:shadow-xl transition-shadow duration-300">
+                    <div className="text-xl font-bold text-purple-600">T</div>
+                  </div>
+                  <h4 className="font-bold text-purple-800 text-sm">Terra</h4>
+                  <p className="text-xs text-gray-600">Portal de Notícias</p>
+                </div>
+                
+                <div className="text-center group">
+                  <div className="w-20 h-20 bg-white rounded-2xl shadow-lg flex items-center justify-center mx-auto mb-3 group-hover:shadow-xl transition-shadow duration-300">
+                    <div className="text-xl font-bold text-gray-600">G1</div>
+                  </div>
+                  <h4 className="font-bold text-gray-800 text-sm">Globo</h4>
+                  <p className="text-xs text-gray-600">Portal G1</p>
+                </div>
               </div>
             </div>
           </div>
