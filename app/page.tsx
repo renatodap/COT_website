@@ -874,6 +874,31 @@ export default function HomePage() {
                   </div>
                 </div>
 
+                {/* Roger Federer */}
+                <div className="group">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 hover:bg-white/20 transition-all duration-300 border border-white/20">
+                    <img 
+                      src="/omaki/omaki_federer.jpg" 
+                      alt="Carlos Omaki com Roger Federer" 
+                      className="w-full h-40 object-cover rounded-xl mb-3 group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <h3 className="font-bold text-white text-center">Roger Federer</h3>
+                    <p className="text-gray-300 text-xs text-center">20x Grand Slam</p>
+                  </div>
+                </div>
+
+                {/* Carlos Kirmayr */}
+                <div className="group">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 hover:bg-white/20 transition-all duration-300 border border-white/20">
+                    <img 
+                      src="/omaki/omaki_kyrmair.jpg" 
+                      alt="Carlos Omaki com Carlos Kirmayr" 
+                      className="w-full h-40 object-cover rounded-xl mb-3 group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <h3 className="font-bold text-white text-center">Carlos Kirmayr</h3>
+                    <p className="text-gray-300 text-xs text-center">Lenda Brasileira</p>
+                  </div>
+                </div>
 
               </div>
 
@@ -1019,248 +1044,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* Photo Gallery */}
-        <section className="py-24 bg-white">
-          <div className="container mx-auto px-4">
-            <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold text-gray-900 mb-4">Momentos Históricos</h2>
-              <p className="text-xl text-gray-600">Uma jornada de conexões e conquistas</p>
-            </div>
-            
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-              {/* Federer */}
-              <div className="group relative overflow-hidden rounded-xl">
-                <img 
-                  src="/omaki/omaki_federer.jpg" 
-                  alt="Carlos Omaki com Roger Federer" 
-                  className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <div className="absolute bottom-3 left-3 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <p className="text-sm font-semibold">Roger Federer</p>
-                </div>
-              </div>
-              
-              {/* Kirmayr */}
-              <div className="group relative overflow-hidden rounded-xl">
-                <img 
-                  src="/omaki/omaki_kyrmair.jpg" 
-                  alt="Carlos Omaki com Carlos Kirmayr" 
-                  className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <div className="absolute bottom-3 left-3 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <p className="text-sm font-semibold">Carlos Kirmayr</p>
-                </div>
-              </div>
-              
-              {/* Haroldo */}
-              <div className="group relative overflow-hidden rounded-xl">
-                <img 
-                  src="/omaki/carlos_omaki_haroldo_omaki_preparador_fisico_brothers.png" 
-                  alt="Carlos e Haroldo Omaki" 
-                  className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <div className="absolute bottom-3 left-3 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <p className="text-sm font-semibold">Haroldo Omaki - Irmão</p>
-                </div>
-              </div>
-              
-              {/* Evelyn */}
-              <div className="group relative overflow-hidden rounded-xl">
-                <img 
-                  src="/omaki/carlos_omaki_evelyn_schulz.png" 
-                  alt="Carlos Omaki com Evelyn Schulz" 
-                  className="w-full h-48 object-cover object-top group-hover:scale-110 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <div className="absolute bottom-3 left-3 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <p className="text-sm font-semibold">Evelyn Schulz</p>
-                </div>
-              </div>
-              
-              {/* Tournament */}
-              <div className="group relative overflow-hidden rounded-xl">
-                <img 
-                  src="/omaki/torneio_luisa_stefani_cot.png" 
-                  alt="Torneio COT" 
-                  className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <div className="absolute bottom-3 left-3 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <p className="text-sm font-semibold">Torneio COT</p>
-                </div>
-              </div>
-              
-              {/* Murray */}
-              <div className="group relative overflow-hidden rounded-xl">
-                <img 
-                  src="/omaki/carlos_omaki_andy_murray.png" 
-                  alt="Carlos Omaki com Andy Murray" 
-                  className="w-full h-48 object-cover object-top group-hover:scale-110 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <div className="absolute bottom-3 left-3 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <p className="text-sm font-semibold">Andy Murray</p>
-                </div>
-              </div>
-              
-              {/* Players on court */}
-              <div className="group relative overflow-hidden rounded-xl">
-                <img 
-                  src="/omaki/omaki_athletes_on_court.png" 
-                  alt="Atletas COT em quadra" 
-                  className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <div className="absolute bottom-3 left-3 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <p className="text-sm font-semibold">Atletas COT</p>
-                </div>
-              </div>
-              
-              {/* Team Photo */}
-              <div className="group relative overflow-hidden rounded-xl">
-                <img 
-                  src="/omaki/omaki_team_higherres.png" 
-                  alt="Equipe Técnica COT" 
-                  className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <div className="absolute bottom-3 left-3 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <p className="text-sm font-semibold">Equipe Técnica</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
 
-        {/* Press Coverage - Enhanced Professional Recognition */}
-        <section className="py-24 bg-gradient-to-b from-gray-50 to-white">
-          <div className="container mx-auto px-4">
-            <div className="text-center mb-16">
-              <div className="inline-flex items-center gap-2 bg-blue-50 text-blue-700 px-6 py-3 rounded-full text-sm font-semibold mb-8 border border-blue-200">
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
-                </svg>
-                Reconhecimento Nacional
-              </div>
-              <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-                <span className="bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">Destaque</span> na Mídia
-              </h2>
-              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Quatro décadas de cobertura jornalística destacando conquistas e metodologia inovadora
-              </p>
-            </div>
-
-            {/* Featured Articles */}
-            <div className="grid lg:grid-cols-2 gap-12 mb-16">
-              {/* Major Feature Article */}
-              <div className="group">
-                <div className="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-gray-100">
-                  <div className="flex items-start gap-4 mb-6">
-                    <div className="w-16 h-16 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl flex items-center justify-center flex-shrink-0">
-                      <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                      </svg>
-                    </div>
-                    <div className="flex-1">
-                      <div className="flex items-center gap-2 mb-2">
-                        <span className="bg-red-100 text-red-700 px-3 py-1 rounded-full text-xs font-bold">LANCE!</span>
-                        <span className="text-gray-400 text-xs">Matéria Especial</span>
-                      </div>
-                      <h3 className="text-2xl font-bold text-gray-900 mb-2">40 Anos Formando Campeões</h3>
-                      <p className="text-gray-600 mb-4">Reportagem especial sobre a trajetória de Carlos Omaki e o impacto na formação de atletas brasileiros de elite.</p>
-                    </div>
-                  </div>
-                  <div className="border-l-4 border-red-500 pl-4 bg-red-50 rounded-r-lg p-3">
-                    <p className="text-sm italic text-gray-700">&ldquo;Carlos Omaki é uma das figuras mais respeitadas do tênis nacional, com metodologia reconhecida internacionalmente.&rdquo;</p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Olympic Coverage */}
-              <div className="group">
-                <div className="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-gray-100">
-                  <div className="flex items-start gap-4 mb-6">
-                    <div className="w-16 h-16 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-2xl flex items-center justify-center flex-shrink-0">
-                      <span className="text-2xl">🥉</span>
-                    </div>
-                    <div className="flex-1">
-                      <div className="flex items-center gap-2 mb-2">
-                        <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-xs font-bold">SPORTV</span>
-                        <span className="text-gray-400 text-xs">Cobertura Olímpica</span>
-                      </div>
-                      <h3 className="text-2xl font-bold text-gray-900 mb-2">Do Juvenil às Olimpíadas</h3>
-                      <p className="text-gray-600 mb-4">Destaque na cobertura olímpica sobre o papel fundamental de Carlos Omaki na formação de Luisa Stefani.</p>
-                    </div>
-                  </div>
-                  <div className="border-l-4 border-yellow-500 pl-4 bg-yellow-50 rounded-r-lg p-3">
-                    <p className="text-sm italic text-gray-700">&ldquo;A base sólida construída por Omaki foi essencial para o sucesso olímpico de Luisa Stefani.&rdquo;</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Media Outlets Grid */}
-            <div className="bg-gray-50 rounded-3xl p-12">
-              <div className="text-center mb-10">
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">Cobertura Nacional</h3>
-                <p className="text-gray-600">Presença constante nos principais veículos esportivos do país</p>
-              </div>
-              
-              <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center">
-                <div className="text-center group">
-                  <div className="w-20 h-20 bg-white rounded-2xl shadow-lg flex items-center justify-center mx-auto mb-3 group-hover:shadow-xl transition-shadow duration-300">
-                    <div className="text-2xl font-bold text-green-600">TB</div>
-                  </div>
-                  <h4 className="font-bold text-green-800 text-sm">TenisBrasil</h4>
-                  <p className="text-xs text-gray-600">Portal Especializado</p>
-                </div>
-                
-                <div className="text-center group">
-                  <div className="w-20 h-20 bg-white rounded-2xl shadow-lg flex items-center justify-center mx-auto mb-3 group-hover:shadow-xl transition-shadow duration-300">
-                    <div className="text-xl font-bold text-red-600">L!</div>
-                  </div>
-                  <h4 className="font-bold text-red-800 text-sm">Lance!</h4>
-                  <p className="text-xs text-gray-600">Jornal Esportivo</p>
-                </div>
-                
-                <div className="text-center group">
-                  <div className="w-20 h-20 bg-white rounded-2xl shadow-lg flex items-center justify-center mx-auto mb-3 group-hover:shadow-xl transition-shadow duration-300">
-                    <div className="text-xl font-bold text-blue-600">STV</div>
-                  </div>
-                  <h4 className="font-bold text-blue-800 text-sm">SporTV</h4>
-                  <p className="text-xs text-gray-600">Canal Esportivo</p>
-                </div>
-                
-                <div className="text-center group">
-                  <div className="w-20 h-20 bg-white rounded-2xl shadow-lg flex items-center justify-center mx-auto mb-3 group-hover:shadow-xl transition-shadow duration-300">
-                    <div className="text-xl font-bold text-orange-600">TN</div>
-                  </div>
-                  <h4 className="font-bold text-orange-800 text-sm">TenisNews</h4>
-                  <p className="text-xs text-gray-600">Revista Especializada</p>
-                </div>
-                
-                <div className="text-center group">
-                  <div className="w-20 h-20 bg-white rounded-2xl shadow-lg flex items-center justify-center mx-auto mb-3 group-hover:shadow-xl transition-shadow duration-300">
-                    <div className="text-xl font-bold text-purple-600">T</div>
-                  </div>
-                  <h4 className="font-bold text-purple-800 text-sm">Terra</h4>
-                  <p className="text-xs text-gray-600">Portal de Notícias</p>
-                </div>
-                
-                <div className="text-center group">
-                  <div className="w-20 h-20 bg-white rounded-2xl shadow-lg flex items-center justify-center mx-auto mb-3 group-hover:shadow-xl transition-shadow duration-300">
-                    <div className="text-xl font-bold text-gray-600">G1</div>
-                  </div>
-                  <h4 className="font-bold text-gray-800 text-sm">Globo</h4>
-                  <p className="text-xs text-gray-600">Portal G1</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
 
         {/* Contact Section */}
         <section id="contato" className="py-20 bg-green-800 text-white">
