@@ -312,6 +312,151 @@ export default function HomePage() {
           </div>
         </section>
 
+        {/* Marina Danzini - Technical Team Leader */}
+        <section className="py-24 bg-gradient-to-b from-white to-gray-50 relative overflow-hidden">
+          <div className="absolute top-0 left-0 w-96 h-96 bg-pink-100 rounded-full blur-3xl opacity-20 -translate-x-1/2 -translate-y-1/2"></div>
+          <div className="absolute bottom-0 right-0 w-96 h-96 bg-purple-100 rounded-full blur-3xl opacity-20 translate-x-1/2 translate-y-1/2"></div>
+          
+          <div className="container mx-auto px-4 relative z-10">
+            <div className="max-w-7xl mx-auto">
+              {/* Section Header */}
+              <div className="text-center mb-16">
+                <div className="inline-flex items-center gap-2 bg-purple-50 text-purple-700 px-6 py-3 rounded-full text-sm font-semibold mb-8 border border-purple-200">
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z" />
+                  </svg>
+                  Equipe Técnica de Elite
+                </div>
+                <h2 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
+                  Marina <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Danzini</span>
+                </h2>
+                <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                  Assistente técnica principal e co-responsável pela formação de 500+ atletas
+                </p>
+              </div>
+
+              {/* Main Content Grid */}
+              <div className="grid lg:grid-cols-2 gap-16 items-center mb-20">
+                {/* Images Column */}
+                <div className="space-y-6">
+                  <div className="relative group">
+                    <div className="absolute -inset-1 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl blur opacity-25 group-hover:opacity-40 transition duration-1000"></div>
+                    <img 
+                      src="/omaki/marina_on_grass_court_with_cot_shirt.png" 
+                      alt="Marina Danzini - Treinadora COT" 
+                      className="relative rounded-2xl shadow-2xl w-full h-80 object-cover hover:scale-105 transition-transform duration-500"
+                    />
+                    <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm rounded-lg px-4 py-2">
+                      <p className="text-sm font-semibold text-gray-800">Treinadora Principal COT</p>
+                    </div>
+                  </div>
+                  
+                  <div className="grid grid-cols-2 gap-6">
+                    <div className="group relative overflow-hidden rounded-xl shadow-lg">
+                      <img 
+                        src="/omaki/marina_with_athlete_holding_trophy.jpg" 
+                        alt="Marina com atleta campeã" 
+                        className="w-full h-40 object-cover group-hover:scale-110 transition-transform duration-500"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                      <div className="absolute bottom-3 left-3 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                        <p className="text-white text-sm font-semibold">Formando Campeãs</p>
+                      </div>
+                    </div>
+                    
+                    <div className="group relative overflow-hidden rounded-xl shadow-lg">
+                      <img 
+                        src="/omaki/marina_carlos_itf_regional_coaches_conference.jpg" 
+                        alt="Marina e Carlos na ITF Conference" 
+                        className="w-full h-40 object-cover group-hover:scale-110 transition-transform duration-500"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                      <div className="absolute bottom-3 left-3 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                        <p className="text-white text-sm font-semibold">ITF Conference</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Content Column */}
+                <div className="space-y-8">
+                  <div className="prose prose-lg max-w-none">
+                    <h3 className="text-3xl font-bold text-gray-900 mb-6">Experiência de Elite</h3>
+                    
+                    <p className="text-xl leading-relaxed text-gray-700 mb-6">
+                      <span className="font-bold text-purple-700">Campeã Brasileira Juvenil</span> e ex-atleta profissional, 
+                      Marina Danzini é formada em Educação Física com pós-graduação em <span className="font-bold">Gestão do Esporte</span>.
+                    </p>
+                    
+                    <p className="text-lg leading-relaxed text-gray-600 mb-6">
+                      Como atleta, foi <span className="font-bold text-gray-800">parceira de treinos de Beatriz Haddad Maia</span> quando 
+                      ambas treinavam com Carlos Omaki. Competiu ao lado de <span className="font-bold">Luísa Stefani</span> (medalhista olímpica) 
+                      representando o Paulistano e foi parceira de <span className="font-bold">Laura Pigossi</span> (medalhista olímpica) em torneios.
+                    </p>
+
+                    <p className="text-lg leading-relaxed text-gray-600">
+                      Hoje, Marina é <span className="font-bold text-purple-700">assistente técnica direta de Carlos Omaki</span> e 
+                      co-responsável pelos programas no <span className="font-bold">Paulistano, Tênis Clube Paulista e Academia Paulistana</span>.
+                    </p>
+                  </div>
+
+                  {/* Key Contributions */}
+                  <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-8 border border-purple-100">
+                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Contribuições Fundamentais</h4>
+                    
+                    <div className="space-y-4">
+                      <div className="flex items-start gap-4">
+                        <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                          <svg className="w-5 h-5 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
+                            <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                          </svg>
+                        </div>
+                        <div>
+                          <h5 className="font-bold text-gray-900">Desenvolvimento Feminino CBT</h5>
+                          <p className="text-gray-600">Integra o projeto nacional de desenvolvimento do tênis feminino da Confederação Brasileira</p>
+                        </div>
+                      </div>
+
+                      <div className="flex items-start gap-4">
+                        <div className="w-10 h-10 bg-pink-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                          <svg className="w-5 h-5 text-pink-600" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                          </svg>
+                        </div>
+                        <div>
+                          <h5 className="font-bold text-gray-900">Inclusão Social</h5>
+                          <p className="text-gray-600">Lidera o treinamento do Instituto Primeiro Serviço, democratizando o acesso ao tênis de qualidade</p>
+                        </div>
+                      </div>
+
+                      <div className="flex items-start gap-4">
+                        <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                          <svg className="w-5 h-5 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z" />
+                          </svg>
+                        </div>
+                        <div>
+                          <h5 className="font-bold text-gray-900">500+ Atletas</h5>
+                          <p className="text-gray-600">Co-responsável pela formação técnica em três dos principais clubes de São Paulo</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Quote */}
+                  <div className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-purple-500">
+                    <blockquote className="text-lg italic text-gray-700">
+                      &ldquo;O tênis não é um esporte só de elite como muitos pensam. Com apoio e treinamento adequado, 
+                      é possível superar dificuldades e crescer no esporte.&rdquo;
+                    </blockquote>
+                    <footer className="mt-3 text-sm font-semibold text-purple-700">— Marina Danzini</footer>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Philosophy Section */}
         <section id="filosofia" className="py-20 bg-gray-50">
           <div className="container mx-auto px-4">
@@ -439,7 +584,7 @@ export default function HomePage() {
                         <div className="relative">
                           <div className="absolute -inset-1 bg-gradient-to-r from-green-500 to-green-600 rounded-full blur opacity-30 group-hover:opacity-50 transition duration-500"></div>
                           <img 
-                            src="/omaki/omaki_biahaddad.jpg" 
+                            src="/omaki/omaki_biahaddad_highres.png" 
                             alt="Carlos Omaki com Beatriz Haddad Maia" 
                             className="relative w-48 h-48 rounded-2xl object-cover border-4 border-white shadow-lg"
                           />
@@ -570,7 +715,7 @@ export default function HomePage() {
                         </div>
                         <h4 className="text-xl font-bold text-white mb-1">Semifinalista</h4>
                         <h5 className="text-lg font-bold text-orange-400 mb-1">Roland Garros</h5>
-                        <p className="text-gray-300 text-sm">Bia Haddad - Top 15 WTA</p>
+                        <p className="text-gray-300 text-sm">Bia Haddad Maia - Top 15 WTA</p>
                       </div>
                     </div>
                     
@@ -766,19 +911,6 @@ export default function HomePage() {
                     />
                     <h3 className="font-bold text-white text-center">Guga Kuerten</h3>
                     <p className="text-gray-300 text-xs text-center">3x Roland Garros</p>
-                  </div>
-                </div>
-
-                {/* Ettore Danesi */}
-                <div className="group">
-                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 hover:bg-white/20 transition-all duration-300 border border-white/20">
-                    <img 
-                      src="/omaki/carlos_omaki_ettore_danesi.png" 
-                      alt="Carlos Omaki com Ettore Danesi" 
-                      className="w-full h-40 object-cover rounded-xl mb-3 group-hover:scale-105 transition-transform duration-300"
-                    />
-                    <h3 className="font-bold text-white text-center">Ettore Danesi</h3>
-                    <p className="text-gray-300 text-xs text-center">Técnico Italiano</p>
                   </div>
                 </div>
 
