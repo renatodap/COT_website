@@ -51,8 +51,8 @@ export default function HomePage() {
           <div className="absolute inset-0 z-0">
             <div className="absolute inset-0 bg-gradient-to-r from-green-900/80 via-green-800/70 to-green-700/80 z-10"></div>
             <img 
-              src="/omaki/omaki_coaching_on_court.jpg" 
-              alt="Carlos Omaki coaching on court" 
+              src="/omaki/carlos_omaki_alone_full_body_at_the_net_clay_court.png" 
+              alt="Carlos Omaki" 
               className="w-full h-full object-cover scale-110 hover:scale-105 transition-transform duration-1000"
             />
           </div>
@@ -221,7 +221,7 @@ export default function HomePage() {
                   <div className="relative group">
                     <div className="absolute -inset-1 bg-gradient-to-r from-green-500 to-green-700 rounded-2xl blur opacity-25 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
                     <img 
-                      src="/omaki/omaki_team.jpg" 
+                      src="/omaki/omaki_team_higherres.png" 
                       alt="Carlos Omaki com sua equipe técnica" 
                       className="relative rounded-2xl shadow-2xl w-full h-80 object-cover hover:scale-105 transition-transform duration-500"
                     />
@@ -235,7 +235,7 @@ export default function HomePage() {
                       <img 
                         src="/omaki/clube_paulistano.jpg" 
                         alt="Club Athletico Paulistano" 
-                        className="w-full h-40 object-cover object-top group-hover:scale-110 transition-transform duration-500"
+                        className="w-full h-40 object-cover object-center group-hover:scale-110 transition-transform duration-500"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                       <div className="absolute bottom-3 left-3 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
@@ -245,9 +245,9 @@ export default function HomePage() {
                     
                     <div className="group relative overflow-hidden rounded-xl shadow-lg">
                       <img 
-                        src="/omaki/trophy.webp" 
-                        alt="Troféu Melhor Treinador" 
-                        className="w-full h-40 object-contain object-center group-hover:scale-110 transition-transform duration-500"
+                        src="/omaki/carlos_omaki_headshot_receiving_best_coach_prize.jpg" 
+                        alt="Carlos Omaki recebendo prêmio" 
+                        className="w-full h-40 object-cover object-center group-hover:scale-110 transition-transform duration-500"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                       <div className="absolute bottom-3 left-3 transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
@@ -331,7 +331,7 @@ export default function HomePage() {
                   Marina <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Danzini</span>
                 </h2>
                 <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                  Assistente técnica principal e co-responsável pela formação de 500+ atletas
+                  Equipe técnica COT - Formando campeões há 15 anos
                 </p>
               </div>
 
@@ -343,11 +343,11 @@ export default function HomePage() {
                     <div className="absolute -inset-1 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl blur opacity-25 group-hover:opacity-40 transition duration-1000"></div>
                     <img 
                       src="/omaki/marina_on_grass_court_with_cot_shirt.png" 
-                      alt="Marina Danzini - Treinadora COT" 
-                      className="relative rounded-2xl shadow-2xl w-full h-80 object-cover hover:scale-105 transition-transform duration-500"
+                      alt="Marina Danzini - COT" 
+                      className="relative rounded-2xl shadow-2xl w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-500"
                     />
                     <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm rounded-lg px-4 py-2">
-                      <p className="text-sm font-semibold text-gray-800">Treinadora Principal COT</p>
+                      <p className="text-sm font-semibold text-gray-800">Equipe Técnica COT</p>
                     </div>
                   </div>
                   
@@ -379,77 +379,38 @@ export default function HomePage() {
                 </div>
 
                 {/* Content Column */}
-                <div className="space-y-8">
+                <div className="space-y-6">
                   <div className="prose prose-lg max-w-none">
-                    <h3 className="text-3xl font-bold text-gray-900 mb-6">Experiência de Elite</h3>
-                    
-                    <p className="text-xl leading-relaxed text-gray-700 mb-6">
-                      <span className="font-bold text-purple-700">Campeã Brasileira Juvenil</span> e ex-atleta profissional, 
-                      Marina Danzini é formada em Educação Física com pós-graduação em <span className="font-bold">Gestão do Esporte</span>.
+                    <p className="text-xl leading-relaxed text-gray-700 mb-4">
+                      <span className="font-bold text-purple-700">Campeã Brasileira Juvenil</span>. 
+                      Formada em Educação Física com pós-graduação em <span className="font-bold">Gestão do Esporte</span>.
                     </p>
                     
-                    <p className="text-lg leading-relaxed text-gray-600 mb-6">
-                      Como atleta, foi <span className="font-bold text-gray-800">parceira de treinos de Beatriz Haddad Maia</span> quando 
-                      ambas treinavam com Carlos Omaki. Competiu ao lado de <span className="font-bold">Luísa Stefani</span> (medalhista olímpica) 
-                      representando o Paulistano e foi parceira de <span className="font-bold">Laura Pigossi</span> (medalhista olímpica) em torneios.
+                    <p className="text-lg leading-relaxed text-gray-600 mb-4">
+                      Parceira de treinos de <span className="font-bold">Beatriz Haddad Maia</span> e 
+                      <span className="font-bold">Luísa Stefani</span>. Competiu com <span className="font-bold">Laura Pigossi</span>.
                     </p>
 
                     <p className="text-lg leading-relaxed text-gray-600">
-                      Hoje, Marina é <span className="font-bold text-purple-700">assistente técnica direta de Carlos Omaki</span> e 
-                      co-responsável pelos programas no <span className="font-bold">Paulistano, Tênis Clube Paulista e Academia Paulistana</span>.
+                      <span className="font-bold text-purple-700">15 anos na equipe COT</span>. 
+                      Co-responsável por <span className="font-bold">500+ atletas</span> em 3 clubes principais.
                     </p>
                   </div>
 
-                  {/* Key Contributions */}
-                  <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-8 border border-purple-100">
-                    <h4 className="text-2xl font-bold text-gray-900 mb-6">Contribuições Fundamentais</h4>
-                    
-                    <div className="space-y-4">
-                      <div className="flex items-start gap-4">
-                        <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                          <svg className="w-5 h-5 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
-                            <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                          </svg>
-                        </div>
-                        <div>
-                          <h5 className="font-bold text-gray-900">Desenvolvimento Feminino CBT</h5>
-                          <p className="text-gray-600">Integra o projeto nacional de desenvolvimento do tênis feminino da Confederação Brasileira</p>
-                        </div>
-                      </div>
-
-                      <div className="flex items-start gap-4">
-                        <div className="w-10 h-10 bg-pink-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                          <svg className="w-5 h-5 text-pink-600" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-                          </svg>
-                        </div>
-                        <div>
-                          <h5 className="font-bold text-gray-900">Inclusão Social</h5>
-                          <p className="text-gray-600">Lidera o treinamento do Instituto Primeiro Serviço, democratizando o acesso ao tênis de qualidade</p>
-                        </div>
-                      </div>
-
-                      <div className="flex items-start gap-4">
-                        <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                          <svg className="w-5 h-5 text-purple-600" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z" />
-                          </svg>
-                        </div>
-                        <div>
-                          <h5 className="font-bold text-gray-900">500+ Atletas</h5>
-                          <p className="text-gray-600">Co-responsável pela formação técnica em três dos principais clubes de São Paulo</p>
-                        </div>
-                      </div>
+                  {/* Key Points - Simplified */}
+                  <div className="grid grid-cols-3 gap-4">
+                    <div className="text-center p-4 bg-purple-50 rounded-xl">
+                      <div className="text-2xl font-bold text-purple-700">CBT</div>
+                      <p className="text-sm text-gray-600">Desenvolvimento Feminino</p>
                     </div>
-                  </div>
-
-                  {/* Quote */}
-                  <div className="bg-white rounded-2xl p-6 shadow-lg border-l-4 border-purple-500">
-                    <blockquote className="text-lg italic text-gray-700">
-                      &ldquo;O tênis não é um esporte só de elite como muitos pensam. Com apoio e treinamento adequado, 
-                      é possível superar dificuldades e crescer no esporte.&rdquo;
-                    </blockquote>
-                    <footer className="mt-3 text-sm font-semibold text-purple-700">— Marina Danzini</footer>
+                    <div className="text-center p-4 bg-pink-50 rounded-xl">
+                      <div className="text-2xl font-bold text-pink-700">500+</div>
+                      <p className="text-sm text-gray-600">Atletas Formados</p>
+                    </div>
+                    <div className="text-center p-4 bg-purple-50 rounded-xl">
+                      <div className="text-2xl font-bold text-purple-700">15</div>
+                      <p className="text-sm text-gray-600">Anos de COT</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -516,7 +477,7 @@ export default function HomePage() {
               </div>
               <div className="space-y-4">
                 <img 
-                  src="/omaki/omaki_athletes_academy.jpg" 
+                  src="/omaki/omaki_athletes_on_court.png" 
                   alt="Atletas da Academia COT em treinamento" 
                   className="rounded-lg shadow-lg w-full h-48 object-cover"
                 />
@@ -586,7 +547,7 @@ export default function HomePage() {
                           <img 
                             src="/omaki/omaki_biahaddad_highres.png" 
                             alt="Carlos Omaki com Beatriz Haddad Maia" 
-                            className="relative w-48 h-48 rounded-2xl object-cover border-4 border-white shadow-lg"
+                            className="relative w-64 h-40 rounded-2xl object-cover border-4 border-white shadow-lg"
                           />
                         </div>
                         <div className="flex-1">
@@ -644,7 +605,7 @@ export default function HomePage() {
                           <img 
                             src="/omaki/omaki_stefani.jpeg" 
                             alt="Carlos Omaki com Luisa Stefani" 
-                            className="relative w-48 h-48 rounded-2xl object-cover object-center border-4 border-white shadow-lg"
+                            className="relative w-64 h-40 rounded-2xl object-cover object-center border-4 border-white shadow-lg"
                           />
                         </div>
                         <div className="flex-1">
@@ -842,7 +803,7 @@ export default function HomePage() {
                     <img 
                       src="/omaki/carlos_omaki_andy_murray.png" 
                       alt="Carlos Omaki com Andy Murray" 
-                      className="w-full h-40 object-cover rounded-xl mb-3 group-hover:scale-105 transition-transform duration-300"
+                      className="w-full h-40 object-cover object-top rounded-xl mb-3 group-hover:scale-105 transition-transform duration-300"
                     />
                     <h3 className="font-bold text-white text-center">Andy Murray</h3>
                     <p className="text-gray-300 text-xs text-center">Ex-#1 Mundial</p>
@@ -855,7 +816,7 @@ export default function HomePage() {
                     <img 
                       src="/omaki/carlos_omaki_carlos_alcaraz.png" 
                       alt="Carlos Omaki com Carlos Alcaraz" 
-                      className="w-full h-40 object-cover rounded-xl mb-3 group-hover:scale-105 transition-transform duration-300"
+                      className="w-full h-40 object-cover object-top rounded-xl mb-3 group-hover:scale-105 transition-transform duration-300"
                     />
                     <h3 className="font-bold text-white text-center">Carlos Alcaraz</h3>
                     <p className="text-gray-300 text-xs text-center">#1 Mundial Atual</p>
@@ -868,7 +829,7 @@ export default function HomePage() {
                     <img 
                       src="/omaki/carlos_omaki_dominic_thiem.png" 
                       alt="Carlos Omaki com Dominic Thiem" 
-                      className="w-full h-40 object-cover rounded-xl mb-3 group-hover:scale-105 transition-transform duration-300"
+                      className="w-full h-40 object-cover object-top rounded-xl mb-3 group-hover:scale-105 transition-transform duration-300"
                     />
                     <h3 className="font-bold text-white text-center">Dominic Thiem</h3>
                     <p className="text-gray-300 text-xs text-center">Campeão US Open</p>
@@ -923,7 +884,7 @@ export default function HomePage() {
                       className="w-full h-40 object-cover rounded-xl mb-3 group-hover:scale-105 transition-transform duration-300"
                     />
                     <h3 className="font-bold text-white text-center">Haroldo Omaki</h3>
-                    <p className="text-gray-300 text-xs text-center">Preparador Físico</p>
+                    <p className="text-gray-300 text-xs text-center">Irmão - Preparador Físico</p>
                   </div>
                 </div>
 
@@ -1003,7 +964,7 @@ export default function HomePage() {
                     <img 
                       src="/omaki/carlos_omaki_evelyn_rosa_wife.png" 
                       alt="Carlos Omaki com esposa Evelyn Rosa" 
-                      className="w-full h-80 object-cover rounded-2xl shadow-lg"
+                      className="w-full h-80 object-cover object-top rounded-2xl shadow-lg"
                     />
                   </div>
                   <div>
@@ -1055,12 +1016,12 @@ export default function HomePage() {
                   <div>
                     <div className="relative group">
                       <img 
-                        src="/omaki/carlos_omaki_alone_full_body_at_the_net_clay_court.png" 
-                        alt="Carlos Omaki em quadra de saibro" 
+                        src="/omaki/torneio_luisa_stefani_cot.png" 
+                        alt="Torneio de Duplas - Luisa Stefani e Carlos Omaki" 
                         className="w-full h-96 object-cover rounded-2xl shadow-lg group-hover:scale-105 transition-transform duration-500"
                       />
                       <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm rounded-lg px-4 py-2">
-                        <p className="text-sm font-semibold text-gray-800">40 anos de dedicação</p>
+                        <p className="text-sm font-semibold text-gray-800">Torneio COT com Luisa Stefani</p>
                       </div>
                     </div>
                   </div>
